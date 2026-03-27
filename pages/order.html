@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../src/styles.css">
+</head>
+
+<body>
+
+<header>
+  <div class="logo">MDQ Beauty Studio</div>
+  <nav>
+    <a href="../MDQ-Beauty-Studio/index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="header-right">
+    <a href="login.html">Login</a>
+    <a href="signup.html">Sign Up</a>
+    <a href="order.html" class="cart-icon">🛒</a>
+  </div>
+</header>
+
+<section class="section order-section">
+  <h1>Checkout</h1>
+  <div class="order-content">
+    <div class="customer-info">
+      <h3>Customer Information</h3>
+      <form>
+        <input type="text" placeholder="Name" required>
+        <input type="tel" placeholder="Phone" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Address" required></textarea>
+      </form>
+    </div>
+    <div class="order-summary">
+      <h3>Order Summary</h3>
+      <div class="summary-item">
+        <p>Lipstick x1</p>
+        <p>$10</p>
+      </div>
+      <div class="summary-item">
+        <p>Foundation x1</p>
+        <p>$15</p>
+      </div>
+      <div class="total">
+        <p>Total: $25</p>
+      </div>
+      <h3>Payment Method</h3>
+      <select>
+        <option>Mobile Money</option>
+        <option>Card</option>
+      </select>
+      <button class="btn">Confirm Order</button>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
